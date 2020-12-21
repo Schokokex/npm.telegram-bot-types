@@ -2,7 +2,7 @@ import InputMessageContent from "./InputMessageContent";
 /**
  * Represents the content of a location message to be sent as the result of an inline query.
  */
-export default class InputLocationMessageContent extends InputMessageContent {
+export default class InputLocationMessageContent implements InputMessageContent {
     /**
      * Latitude of the location in degrees
      */

@@ -1,9 +1,10 @@
-import MessageEntity from "../core/MessageEntity";
 import InputFile from "./InputFile";
+import InputMedia from "./InputMedia";
+import MessageEntity from "../core/MessageEntity";
 /**
  * Represents an animation file (GIF or H.264/MPEG-4 AVC video without sound) to be sent.
  */
-export default interface InputMediaAnimation {
+export default interface InputMediaAnimation extends InputMedia {
     /**
      * Type of the result, must be animation
      */

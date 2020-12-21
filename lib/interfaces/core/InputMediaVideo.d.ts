@@ -1,9 +1,10 @@
 import MessageEntity from "../core/MessageEntity";
 import InputFile from "../core/InputFile";
+import InputMedia from "./InputMedia";
 /**
  * Represents a video to be sent.
  */
-export default interface InputMediaVideo {
+export default interface InputMediaVideo extends InputMedia {
     /**
      * Type of the result, must be video
      */

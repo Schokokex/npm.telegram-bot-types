@@ -2,7 +2,7 @@ import InputMessageContent from "./InputMessageContent";
 /**
  * Represents the content of a contact message to be sent as the result of an inline query.
  */
-export default class InputContactMessageContent extends InputMessageContent {
+export default class InputContactMessageContent implements InputMessageContent {
     /**
      * Contact's phone number
      */

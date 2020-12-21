@@ -3,7 +3,7 @@ import MessageEntity from "../core/MessageEntity";
 /**
  * Represents the content of a text message to be sent as the result of an inline query.
  */
-export default class InputTextMessageContent extends InputMessageContent {
+export default class InputTextMessageContent implements InputMessageContent {
     /**
      * Text of the message to be sent, 1-4096 characters
      */

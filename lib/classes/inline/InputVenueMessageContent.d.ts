@@ -2,7 +2,7 @@ import InputMessageContent from "./InputMessageContent";
 /**
  * Represents the content of a venue message to be sent as the result of an inline query.
  */
-export default class InputVenueMessageContent extends InputMessageContent {
+export default class InputVenueMessageContent implements InputMessageContent {
     /**
      * Latitude of the venue in degrees
      */

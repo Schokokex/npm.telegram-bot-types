@@ -1,9 +1,10 @@
 import MessageEntity from "../core/MessageEntity";
 import InputFile from "./InputFile";
+import InputMedia from "./InputMedia";
 /**
  * Represents a general file to be sent.
  */
-export default interface InputMediaDocument {
+export default interface InputMediaDocument extends InputMedia {
     /**
      * Type of the result, must be document
      */
