@@ -2,7 +2,7 @@
   "name": "telegram-bot-types",
   "version": "5.0.3",
   "description": "types for the Telegram Bot Api",
-  "main": "index.js",
+  "main": "lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
