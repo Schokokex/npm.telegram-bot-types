@@ -1,6 +1,6 @@
 {
   "name": "telegram-bot-types",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "types for the Telegram Bot Api",
   "main": "index.js",
   "scripts": {
