@@ -5,7 +5,7 @@
   "main": "lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish" : "npm version patch"
+    "publish" : "npx tslint --project . && npx tsc && npm version patch"
   },
   "repository": {
     "type": "git",
