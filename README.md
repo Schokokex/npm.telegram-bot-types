@@ -4,7 +4,7 @@ generated with https://github.com/devmattrick/telebotscraper
 
 and then fixed up (fixed errors, running tslint)
 
-example fixes: InputMessageContent missing, InputFile missing, CallbackGame missing
+example fixes: InputMessageContent missing, InputFile missing, CallbackGame missing, InputMedia missing
 
 [![](https://api.gh-polls.com/poll/01ET2QAJ7CMJPNZKE4JR8797XD/classses%2C%20interfaces%2C%20types)](https://api.gh-polls.com/poll/01ET2QAJ7CMJPNZKE4JR8797XD/classses%2C%20interfaces%2C%20types/vote)
 [![](https://api.gh-polls.com/poll/01ET2QAJ7CMJPNZKE4JR8797XD/interfaces%2C%20types)](https://api.gh-polls.com/poll/01ET2QAJ7CMJPNZKE4JR8797XD/interfaces%2C%20types/vote)

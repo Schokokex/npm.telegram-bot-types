@@ -4,7 +4,7 @@ import MessageEntity from "../core/MessageEntity";
 /**
  * Represents the content of a text message to be sent as the result of an inline query.
  */
-export default class InputTextMessageContent extends InputMessageContent {
+export default class InputTextMessageContent implements InputMessageContent {
 
   /**
    * Text of the message to be sent, 1-4096 characters
@@ -35,7 +35,6 @@ export default class InputTextMessageContent extends InputMessageContent {
     disable_web_page_preview?: boolean,
 
   ){
-    super();
     this.message_text = message_text;
 
     this.parse_mode = parse_mode;

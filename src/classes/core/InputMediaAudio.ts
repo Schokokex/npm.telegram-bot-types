@@ -1,10 +1,11 @@
 import MessageEntity from "../core/MessageEntity";
 import InputFile from "./InputFile";
+import InputMedia from "./InputMedia";
 
 /**
  * Represents an audio file to be treated as music to be sent.
  */
-export default class InputMediaAudio {
+export default class InputMediaAudio implements InputMedia {
 
   /**
    * Type of the result, must be audio

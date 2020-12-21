@@ -1,10 +1,11 @@
 import MessageEntity from "../core/MessageEntity";
 import InputFile from "./InputFile";
+import InputMedia from "./InputMedia";
 
 /**
  * Represents an animation file (GIF or H.264/MPEG-4 AVC video without sound) to be sent.
  */
-export default class InputMediaAnimation {
+export default class InputMediaAnimation implements InputMedia {
 
   /**
    * Type of the result, must be animation

@@ -3,7 +3,7 @@ import InputMessageContent from "./InputMessageContent";
 /**
  * Represents the content of a contact message to be sent as the result of an inline query.
  */
-export default class InputContactMessageContent extends InputMessageContent {
+export default class InputContactMessageContent implements InputMessageContent {
 
   /**
    * Contact's phone number
@@ -34,7 +34,6 @@ export default class InputContactMessageContent extends InputMessageContent {
     vcard?: string,
 
   ){
-    super();
     this.phone_number = phone_number;
     this.first_name = first_name;
 

@@ -1,9 +1,10 @@
 import MessageEntity from "../core/MessageEntity";
+import InputMedia from "./InputMedia";
 
 /**
  * Represents a photo to be sent.
  */
-export default class InputMediaPhoto {
+export default class InputMediaPhoto implements InputMedia {
 
   /**
    * Type of the result, must be photo
