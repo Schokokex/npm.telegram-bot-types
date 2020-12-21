@@ -3,10 +3,10 @@ import { InlineKeyboardMarkup } from "../core/InlineKeyboardMarkup";
 import { InputMessageContent } from "./InputMessageContent";
 
 /**
- * 
-If an InlineQueryResultVideo message contains an embedded video (e.g., YouTube), you must replace its content using input_message_content.
-
-Represents a link to a page containing an embedded video player or a video file. By default, this video file will be sent by the user with an optional caption. Alternatively, you can use input_message_content to send a message with the specified content instead of the video.
+ *
+ * If an InlineQueryResultVideo message contains an embedded video (e.g., YouTube), you must replace its content using input_message_content.
+ *
+ * Represents a link to a page containing an embedded video player or a video file. By default, this video file will be sent by the user with an optional caption. Alternatively, you can use input_message_content to send a message with the specified content instead of the video.
  */
 export type InlineQueryResultVideo = {
   /**
@@ -83,5 +83,4 @@ export type InlineQueryResultVideo = {
    * Optional. Content of the message to be sent instead of the video. This field is required if InlineQueryResultVideo is used to send an HTML-page as a result (e.g., a YouTube video).
    */
   input_message_content?: InputMessageContent;
-
-}
+};

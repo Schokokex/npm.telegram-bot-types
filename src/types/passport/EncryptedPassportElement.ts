@@ -1,4 +1,3 @@
-import { File } from "../core/File";
 import { PassportFile } from "../passport/PassportFile";
 
 

@@ -1,4 +1,3 @@
-import { Message } from "../core/Message";
 import { MessageEntity } from "../core/MessageEntity";
 import { PollOption } from "../core/PollOption";
 

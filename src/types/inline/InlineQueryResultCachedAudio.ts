@@ -1,4 +1,3 @@
-import { Message } from "../core/Message";
 import { MessageEntity } from "../core/MessageEntity";
 import { InlineKeyboardMarkup } from "../core/InlineKeyboardMarkup";
 import { InputMessageContent } from "./InputMessageContent";

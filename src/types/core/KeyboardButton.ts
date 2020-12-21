@@ -1,4 +1,3 @@
-import { Poll } from "../core/Poll";
 import { KeyboardButtonPollType } from "../core/KeyboardButtonPollType";
 
 

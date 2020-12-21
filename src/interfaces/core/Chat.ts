@@ -1,5 +1,4 @@
 import Message from "../core/Message";
-import Location from "../core/Location";
 import ChatPhoto from "../core/ChatPhoto";
 import ChatPermissions from "../core/ChatPermissions";
 import ChatLocation from "../core/ChatLocation";

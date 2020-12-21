@@ -1,6 +1,4 @@
-import { Message } from "../core/Message";
 import { MessageEntity } from "../core/MessageEntity";
-import { File } from "../core/File";
 import { InputFile } from "./InputFile";
 
 
