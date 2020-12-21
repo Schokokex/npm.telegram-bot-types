@@ -1,0 +1,25 @@
+{
+  "name": "telegram-bot-types",
+  "version": "5.0.0",
+  "description": "types for the Telegram Bot Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:Schokokex/npm.telegram-bot-types"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "types"
+  ],
+  "author": "Schokokex",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.1.3"
+  }
+}
